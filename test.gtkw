@@ -1,0 +1,101 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Apr 13 18:57:27 2016
+[*]
+[dumpfile] "/home/diadatp/mips_cpu/dump.vcd"
+[dumpfile_mtime] "Wed Apr 13 18:50:13 2016"
+[dumpfile_size] 24141
+[savefile] "/home/diadatp/mips_cpu/test.gtkw"
+[timestart] 35660
+[size] 1362 729
+[pos] -1 -1
+*-14.000000 69650 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.uut.
+[treeopen] tb.uut.mips_inst.
+[treeopen] tb.uut.mips_inst.controller_inst.
+[treeopen] tb.uut.mips_inst.datapath_inst.
+[sst_width] 210
+[signals_width] 249
+[sst_expanded] 1
+[sst_vpaned_height] 197
+@28
+tb.uut.mips_inst.controller_inst.maindec_inst.is_add
+tb.uut.mips_inst.controller_inst.maindec_inst.is_addi
+tb.uut.mips_inst.controller_inst.maindec_inst.is_and
+tb.uut.mips_inst.controller_inst.maindec_inst.is_beq
+tb.uut.mips_inst.controller_inst.maindec_inst.is_j
+tb.uut.mips_inst.controller_inst.maindec_inst.is_lw
+tb.uut.mips_inst.controller_inst.maindec_inst.is_or
+tb.uut.mips_inst.controller_inst.maindec_inst.is_slt
+tb.uut.mips_inst.controller_inst.maindec_inst.is_sub
+tb.uut.mips_inst.controller_inst.maindec_inst.is_sw
+@22
+tb.uut.mips_inst.clk
+tb.uut.mips_inst.rst
+tb.uut.mips_inst.datapath_inst.pc[31:0]
+tb.uut.mips_inst.imem_addr[31:0]
+tb.uut.mips_inst.imem_data[31:0]
+tb.uut.mips_inst.controller_inst.maindec_inst.opcode[5:0]
+tb.uut.mips_inst.controller_inst.maindec_inst.func[5:0]
+tb.uut.mips_inst.datapath_inst.regfile_inst.addr1[4:0]
+tb.uut.mips_inst.datapath_inst.regfile_inst.data1[31:0]
+tb.uut.mips_inst.datapath_inst.src_a[31:0]
+tb.uut.mips_inst.datapath_inst.regfile_inst.addr2[4:0]
+tb.uut.mips_inst.datapath_inst.regfile_inst.data2[31:0]
+tb.uut.mips_inst.datapath_inst.alu_src
+tb.uut.mips_inst.datapath_inst.imm_ext[31:0]
+tb.uut.mips_inst.datapath_inst.src_b[31:0]
+tb.uut.mips_inst.datapath_inst.write_data[31:0]
+tb.uut.mips_inst.branch
+@23
+tb.uut.mips_inst.datapath_inst.zero
+@22
+tb.uut.mips_inst.datapath_inst.alucontrol[2:0]
+tb.uut.mips_inst.datapath_inst.alu_result[31:0]
+tb.uut.mips_inst.mem_to_reg
+tb.uut.mips_inst.datapath_inst.read_data[31:0]
+tb.uut.mips_inst.datapath_inst.result[31:0]
+tb.uut.mips_inst.datapath_inst.rt[5:0]
+tb.uut.mips_inst.reg_dst
+tb.uut.mips_inst.datapath_inst.rd[5:0]
+@c00022
+tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+@28
+(0)tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+(1)tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+(2)tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+(3)tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+(4)tb.uut.mips_inst.datapath_inst.write_reg[4:0]
+@1401200
+-group_end
+@22
+tb.uut.mips_inst.datapath_inst.regfile_inst.wdata[31:0]
+tb.uut.mips_inst.reg_write
+tb.uut.mips_inst.datapath_inst.pc_plus_4[31:0]
+tb.uut.mips_inst.datapath_inst.pc_branch[31:0]
+tb.uut.mips_inst.jump
+tb.uut.mips_inst.datapath_inst.pc_jump[31:0]
+tb.uut.mips_inst.datapath_inst.pc_next[31:0]
+tb.uut.mips_inst.dmem_addr[31:0]
+tb.uut.mips_inst.dmem_rdata[31:0]
+tb.uut.mips_inst.dmem_wdata[31:0]
+tb.uut.mips_inst.dmem_we
+tb.uut.mips_inst.datapath_inst.regfile_inst.addr3[4:0]
+tb.uut.mips_inst.mem_write
+tb.uut.mips_inst.datapath_inst.c_out
+tb.uut.mips_inst.datapath_inst.jump
+tb.uut.mips_inst.datapath_inst.mem_to_reg
+tb.uut.mips_inst.datapath_inst.mem_write
+tb.uut.mips_inst.datapath_inst.pc_src
+tb.uut.mips_inst.datapath_inst.read_data[31:0]
+tb.uut.mips_inst.datapath_inst.reg_data1[31:0]
+tb.uut.mips_inst.datapath_inst.reg_data2[31:0]
+tb.uut.mips_inst.datapath_inst.reg_dst
+tb.uut.mips_inst.datapath_inst.reg_write
+tb.uut.mips_inst.datapath_inst.result[31:0]
+tb.uut.mips_inst.datapath_inst.rst
+tb.uut.mips_inst.datapath_inst.regfile_inst.clk
+tb.uut.mips_inst.datapath_inst.regfile_inst.rw
+[pattern_trace] 1
+[pattern_trace] 0

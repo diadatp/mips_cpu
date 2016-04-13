@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Apr 13 21:54:31 2016
+[*]
+[dumpfile] "/home/diadatp/mips_cpu/dump.vcd"
+[dumpfile_mtime] "Wed Apr 13 21:54:16 2016"
+[dumpfile_size] 31162
+[savefile] "/home/diadatp/mips_cpu/waveform.gtkw"
+[timestart] 0
+[size] 1362 729
+[pos] -1 -1
+*-15.000000 10000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.uut.
+[treeopen] tb.uut.mips_inst.
+[treeopen] tb.uut.mips_inst.controller_inst.
+[treeopen] tb.uut.mips_inst.datapath_inst.
+[sst_width] 210
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 197
+@22
+tb.uut.mips_inst.clk
+@28
+tb.uut.reset
+@22
+tb.uut.mips_inst.datapath_inst.pc[31:0]
+tb.uut.mips_inst.controller_inst.instr[31:0]
+tb.uut.mips_inst.datapath_inst.alu_out[31:0]
+tb.uut.mips_inst.datapath_inst.write_data[31:0]
+tb.uut.mips_inst.datapath_inst.mem_write
+tb.uut.mips_inst.datapath_inst.read_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
