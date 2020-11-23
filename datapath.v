@@ -75,6 +75,7 @@ module datapath (
 	assign src_a = reg_data1;
 	assign src_b = alu_src ? imm_ext : reg_data2;
 
+	wire [31:0] alu_out;
 	alu alu_inst (
 		.a_in (src_a     ),
 		.b_in (src_b     ),
@@ -83,7 +84,6 @@ module datapath (
 		.c_out(c_out     ),
 		.y_out(alu_out   )
 	);
-	wire [31:0] alu_out;
 	assign alu_result = alu_out;
 
 	wire [31:0] imm_ext;

@@ -16,7 +16,6 @@ module mips (
     wire       branch    ;
     wire       jump      ;
     wire       mem_to_reg;
-    wire       mem_write ;
     wire       reg_dst   ;
     wire       reg_write ;
 
@@ -27,7 +26,7 @@ module mips (
         .branch    (branch    ),
         .jump      (jump      ),
         .mem_to_reg(mem_to_reg),
-        .mem_write (mem_write ),
+        .mem_write (dmem_we   ),
         .reg_dst   (reg_dst   ),
         .reg_write (reg_write )
     );
@@ -40,7 +39,7 @@ module mips (
         .branch    (branch    ),
         .jump      (jump      ),
         .mem_to_reg(mem_to_reg),
-        .mem_write (mem_write ),
+        .mem_write (dmem_we   ),
         .reg_dst   (reg_dst   ),
         .reg_write (reg_write ),
         .instr     (imem_data ),

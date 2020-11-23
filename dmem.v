@@ -6,13 +6,9 @@ module dmem (
 	output [31:0] rdata
 );
 
-	reg [31:0] rdata;
+	reg [31:0] memdata [127:0];
 
-	reg [31:0] memdata[63:0];
-
-	always @(memdata[addr]) begin
-		rdata = memdata[addr];
-	end
+	assign rdata = memdata[addr];
 
 	always @(posedge clk) begin
 		if(1'b1 == we) begin
